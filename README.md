@@ -1,20 +1,19 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Vercel deployment - 
+
 ## Getting Started
 
-First, run the development server:
+1.) Clone the GitHub repository using clone command.
+          git clone (url of the repository)
+          
+2.) Open the clone repo. You are already in the root directory of the project.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+3.) Run 'npm install' to install all the required dependencies.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4.) Run command 'npm run dev'.
+
+5.)Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
