@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import NavBar from "./components/NavBar";
+import SideNavBar from "./components/SideNavBar";
+import { isBrowser, isMobile, BrowserView, MobileView } from "react-device-detect";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="overflow-y-hidden">
+        <NavBar />
+        {children}
+        <SideNavBar />
+      </body>
     </html>
   );
 }
