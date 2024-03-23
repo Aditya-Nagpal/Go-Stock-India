@@ -19,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>Go India Stocks</title>
+      </head>
       <body className="overflow-y-hidden">
         <NavBar />
         {children}
