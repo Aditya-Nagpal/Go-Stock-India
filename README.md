@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Vercel deployment - https://go-stock-india.vercel.app/
+
 ## Getting Started
 
 1.) Clone the GitHub repository using clone command.
